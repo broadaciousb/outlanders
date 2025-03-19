@@ -25,7 +25,7 @@ const Home = ({ register, login, logout, user }) => {
               <button className="landing__link" onClick={logout}>Logout</button>
             </li>
             <li>
-              <Link className="landing__link">Characters</Link>
+              <Link to="/characters" className="landing__link">Characters</Link>
             </li>
             <li>
               <Link to="/guide" className="landing__link">Guide</Link>

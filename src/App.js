@@ -11,6 +11,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router";
 import Home from "./Pages/Home.jsx";
 import Guide from "./Pages/Guide.jsx";
+import Characters from "./Pages/Characters.jsx";
 
 
 function App() {
@@ -71,6 +72,7 @@ useEffect(() => {
             }
           />
           <Route path="/guide" element={<Guide />} />
+          <Route path="/characters" element={<Characters />} />
         </Routes>
       </Router>
     </div>
