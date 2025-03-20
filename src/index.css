@@ -150,6 +150,21 @@ button {
 
 .characters {
   background-color: grey;
+  min-height: 100vh;
+}
+
+.characters__title {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 48px;
+}
+
+.start__new__character {
+  color: black;
+}
+
+.start__new__character:hover {
+  color: white;
 }
 
 .character__list {
@@ -173,6 +188,8 @@ button {
   justify-content: center;
   align-items: center;
   width: 50%;
+  border: 6px solid #6E260E;
+  overflow: hidden;
 }
 
 .character__img {
@@ -183,3 +200,32 @@ button {
 .character__name {
   font-size: 36px;
 }
+
+
+/* NEW CHARACTER */
+
+.new__character {
+  margin: 24px;
+}
+
+.new__character__info--wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.new__character__info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.character__info--detail {
+  font-size: 16px;
+  margin: 8px;
+}
+
+.new__character__img--wrapper {
+  width: 25%;
+}
+

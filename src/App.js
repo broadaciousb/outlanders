@@ -12,6 +12,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router";
 import Home from "./Pages/Home.jsx";
 import Guide from "./Pages/Guide.jsx";
 import Characters from "./Pages/Characters.jsx";
+import NewCharacter from "./Pages/NewCharacter.jsx";
 
 
 function App() {
@@ -73,6 +74,7 @@ useEffect(() => {
           />
           <Route path="/guide" element={<Guide />} />
           <Route path="/characters" element={<Characters />} />
+          <Route path="/new-character" element={<NewCharacter />} />
         </Routes>
       </Router>
     </div>
