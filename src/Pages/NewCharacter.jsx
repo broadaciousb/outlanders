@@ -48,52 +48,58 @@ const NewCharacter = () => {
             <img className="character__img" src={character__img} alt="" />
           </div>
         </div>
+        {/* STR DEX CON INT WIS CHA */}
+        {/* STAT SCORE MOD BONUS BASE */}
         <div className="character__stats--wrapper">
           <div className="character__stats">
-            <div className="stat__column stat__names">
+            <div className="stat__row">
               <div className="stat__name">STAT</div>
-              <div className="stat__name">STR</div>
-              <div className="stat__name">DEX</div>
-              <div className="stat__name">CON</div>
-              <div className="stat__name">INT</div>
-              <div className="stat__name">WIS</div>
-              <div className="stat__name">CHA</div>
+              <div className="stat__name">SCORE</div>
+              <div className="stat__name">MOD</div>
+              <div className="stat__name">BONUS</div>
+              <div className="stat__name">BASE</div>
             </div>
-            <div className="stat__column stat__values">
-              <div className="stat__value">SCORE</div>
+            <div className="stat__row">
+              <div className="stat__value">STR</div>
               <div className="stat__value">6</div>
-              <div className="stat__value">5</div>
-              <div className="stat__value">5</div>
-              <div className="stat__value">4</div>
               <div className="stat__value">3</div>
-              <div className="stat__value">3</div>
+              <div className="stat__value">1</div>
+              <div className="stat__value">10</div>
             </div>
-            <div className="stat__column stat__values">
-              <div className="stat__value">MOD</div>
+            <div className="stat__row">
+              <div className="stat__value">DEX</div>
               <div className="stat__value">6</div>
-              <div className="stat__value">5</div>
-              <div className="stat__value">5</div>
-              <div className="stat__value">4</div>
               <div className="stat__value">3</div>
-              <div className="stat__value">3</div>
+              <div className="stat__value">1</div>
+              <div className="stat__value">10</div>
             </div>
-            <div className="stat__column stat__values">
-              <div className="stat__value">BONUS</div>
+            <div className="stat__row">
+              <div className="stat__value">CON</div>
               <div className="stat__value">6</div>
-              <div className="stat__value">5</div>
-              <div className="stat__value">5</div>
-              <div className="stat__value">4</div>
               <div className="stat__value">3</div>
-              <div className="stat__value">3</div>
+              <div className="stat__value">1</div>
+              <div className="stat__value">10</div>
             </div>
-            <div className="stat__column stat__values">
-              <div className="stat__value">BASE</div>
+            <div className="stat__row">
+              <div className="stat__value">INT</div>
               <div className="stat__value">6</div>
-              <div className="stat__value">5</div>
-              <div className="stat__value">5</div>
-              <div className="stat__value">4</div>
               <div className="stat__value">3</div>
+              <div className="stat__value">1</div>
+              <div className="stat__value">10</div>
+            </div>
+            <div className="stat__row">
+              <div className="stat__value">WIS</div>
+              <div className="stat__value">6</div>
               <div className="stat__value">3</div>
+              <div className="stat__value">1</div>
+              <div className="stat__value">10</div>
+            </div>
+            <div className="stat__row">
+              <div className="stat__value">CHA</div>
+              <div className="stat__value">6</div>
+              <div className="stat__value">3</div>
+              <div className="stat__value">1</div>
+              <div className="stat__value">10</div>
             </div>
           </div>
         </div>

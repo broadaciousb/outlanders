@@ -237,6 +237,7 @@ button {
 
 .new__character__img--wrapper {
   width: 25%;
+  border: 12px solid #6E260E;
 }
 
 .character__stats--wrapper {
@@ -246,33 +247,27 @@ button {
 
 .character__stats {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
   margin: 0 24px;
+  padding-top: 36px;
+  border: 3px solid black;
 }
 
-.stat {
+.stat__row {
   display: flex;
   align-items: center;
-  width: 80%;
+  justify-content: space-between;
   font-size: 36px;
 }
 
-.stat__column {
-  font-size: 36px;
-}
-
-.stat__names {
-
-}
-
-.stat__values {
-  text-align: center;
+.stat__name {
+  color: rgb(202, 111, 0);
 }
 
 .stat__name,
 .stat__value {
-  margin-bottom: 12px;
+  width: 10%;
+  text-align: center;
+  margin-bottom: 36px;
 }
-
 
