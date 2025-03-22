@@ -7,7 +7,7 @@
   transition: all 300ms ease;
 }
 
-.section {
+section {
   overflow-x: hidden;
 }
 
@@ -75,13 +75,13 @@ button {
 .landing {
   display: flex;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .landing__left {
   position: relative;
   width: 50%;
   height: auto;
-  box-shadow: 
 }
 
 .landing__right {
@@ -211,6 +211,7 @@ button {
 .new__character__info--wrapper {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -220,12 +221,58 @@ button {
   width: 50%;
 }
 
-.character__info--detail {
-  font-size: 16px;
-  margin: 8px;
+.info__detail {
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.info__input {
+  font-size: 36px;
+  margin-left: 36px;
+  width: 100%;
 }
 
 .new__character__img--wrapper {
   width: 25%;
 }
+
+.character__stats--wrapper {
+  width: 100%;
+  margin: 10% 0;
+}
+
+.character__stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 24px;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  font-size: 36px;
+}
+
+.stat__column {
+  font-size: 36px;
+}
+
+.stat__names {
+
+}
+
+.stat__values {
+  text-align: center;
+}
+
+.stat__name,
+.stat__value {
+  margin-bottom: 12px;
+}
+
 
