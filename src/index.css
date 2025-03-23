@@ -24,8 +24,6 @@ button {
   border: none;
 }
 
-
-
 .link__hover-effect:after {
   content: "";
   position: absolute;
@@ -205,8 +203,20 @@ button {
 /* NEW CHARACTER */
 
 .new__character {
-  margin: 24px;
+  margin: 36px;
 }
+
+.character__row {
+  margin: 10% 0;
+}
+
+.character__subtitle {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+/* NEW CHARACTER--INFO */
 
 .new__character__info--wrapper {
   display: flex;
@@ -240,15 +250,11 @@ button {
   border: 12px solid #6E260E;
 }
 
-.character__stats--wrapper {
-  width: 100%;
-  margin: 10% 0;
-}
+/* NEW CHARACTER--STATS */
 
 .character__stats {
   display: flex;
   flex-direction: column;
-  margin: 0 24px;
   padding-top: 36px;
   border: 3px solid black;
 }
@@ -257,17 +263,93 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 36px;
 }
 
-.stat__name {
+.stat__name,
+.action__name {
   color: rgb(202, 111, 0);
 }
 
 .stat__name,
-.stat__value {
-  width: 10%;
+.stat__value,
+.action__name {
   text-align: center;
   margin-bottom: 36px;
 }
+
+.stat__name,
+.stat__value {
+  font-size: 36px;
+  width: 10%;
+}
+
+/* NEW CHARACTER--ACTIONS */
+
+.character__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 3px solid black;
+}
+
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 10%;
+  border: 3px solid #6E260E;
+  padding: 8px;
+  margin: 36px 12px;
+}
+
+.action__name,
+.action__score {
+  font-size: 24px;
+}
+
+
+/* NEW CHARACTER SKILLS */
+
+.character__skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill__category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  border: 3px solid black;
+  padding: 36px;
+}
+
+.skill__category--title {
+  font-size: 32px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 24px;
+  width: 100%;
+}
+
+.skill__stat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border: 2px solid black;
+  min-width: 100px;
+}
+
+.skill__stat--mod {
+  
+}
+
+
 

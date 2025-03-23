@@ -48,9 +48,12 @@ const NewCharacter = () => {
             <img className="character__img" src={character__img} alt="" />
           </div>
         </div>
+
+        {/* STATS */}
         {/* STR DEX CON INT WIS CHA */}
         {/* STAT SCORE MOD BONUS BASE */}
-        <div className="character__stats--wrapper">
+        <div className="character__row">
+          <h2 className="character__subtitle">STATS</h2>
           <div className="character__stats">
             <div className="stat__row">
               <div className="stat__name">STAT</div>
@@ -100,6 +103,67 @@ const NewCharacter = () => {
               <div className="stat__value">3</div>
               <div className="stat__value">1</div>
               <div className="stat__value">10</div>
+            </div>
+          </div>
+        </div>
+
+        {/* ACTIONS */}
+        {/* ARMOR STAMINA HEALTH FOCUS MOVEMENT INSPIRATION */}
+
+        <div className="character__row">
+          <h2 className="character__subtitle">ACTION SCORES</h2>
+          <div className="character__actions">
+            <div className="action">
+              <div className="action__name">ARMOR</div>
+              <div className="action__score">8</div>
+            </div>
+            <div className="action">
+              <div className="action__name">STAMINA</div>
+              <div className="action__score">6</div>
+            </div>
+            <div className="action">
+              <div className="action__name">HEALTH</div>
+              <div className="action__score">12</div>
+            </div>
+            <div className="action">
+              <div className="action__name">FOCUS</div>
+              <div className="action__score">6</div>
+            </div>
+            <div className="action">
+              <div className="action__name">MOVEMENT</div>
+              <div className="action__score">7</div>
+            </div>
+            <div className="action">
+              <div className="action__name">INSPIRATION</div>
+              <div className="action__score">8</div>
+            </div>
+          </div>
+        </div>
+
+        {/* SKILLS */}
+
+        <div className="character__row">
+          <h2 className="character__subtitle">SKILLS</h2>
+          <div className="character__skills">
+            <div className="skill__category">
+              <h3 className="skill__category--title">GENERAL</h3>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div className="skill__stat--name">DEX</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Acrobatics</div>
+              </div>
+            </div>
+            <div className="skill__category">
+              <h3 className="skill__category--title">GENERAL</h3>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div className="skill__stat--name">DEX</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Acrobatics</div>
+              </div>
             </div>
           </div>
         </div>
