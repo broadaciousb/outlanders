@@ -333,23 +333,25 @@ button {
 .skill {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 24px;
   width: 100%;
-}
-
-.skill__stat {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding: 16px;
   border: 2px solid black;
-  min-width: 100px;
 }
 
-.skill__stat--mod {
-  
+.skill__stat,
+.skill__score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.skill__stat--mod,
+.skill__score--total {
+  margin-left: 20px;
+}
+
 
 
 

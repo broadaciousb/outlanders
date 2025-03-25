@@ -149,20 +149,223 @@ const NewCharacter = () => {
               <h3 className="skill__category--title">GENERAL</h3>
               <div className="skill">
                 <div className="skill__stat">
-                  <div className="skill__stat--name">DEX</div>
+                  <div>DEX</div>
                   <div className="skill__stat--mod">3</div>
                 </div>
                 <div className="skill__name">Acrobatics</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
               </div>
-            </div>
-            <div className="skill__category">
-              <h3 className="skill__category--title">GENERAL</h3>
               <div className="skill">
                 <div className="skill__stat">
-                  <div className="skill__stat--name">DEX</div>
+                  <div>WIS</div>
                   <div className="skill__stat--mod">3</div>
                 </div>
-                <div className="skill__name">Acrobatics</div>
+                <div className="skill__name">Animal Handling</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>STR</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Athletics</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>WIS</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Cooking</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>CHA</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Deception</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>INT</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">History</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>WIS</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Insight</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>INT</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Intimidation</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>CHA</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Investigation</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>DEX</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Lockpick</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>WIS</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Medicine</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>WIS</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Nature</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>WIS</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Perception</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>CHA</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Performance</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>CHA</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Persuasion</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>WIS</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Religion</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>DEX</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Sleight of Hand</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>WIS</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Streetwise</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>DEX</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Stealth</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
+              </div>
+              <div className="skill">
+                <div className="skill__stat">
+                  <div>WIS</div>
+                  <div className="skill__stat--mod">3</div>
+                </div>
+                <div className="skill__name">Survival</div>
+                <div className="skill__score">
+                  <div>TOTAL</div>
+                  <div className="skill__score--total">10</div>
+                </div>
               </div>
             </div>
           </div>
