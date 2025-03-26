@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router";
+
 import Nav from "../Components/Nav.jsx";
+import Login from "../Components/Login.jsx";
+
 import OutlandersMap from "../assets/OutlandersMap.JPEG";
 
 const Home = ({ register, login, logout, user }) => {
@@ -10,6 +13,7 @@ const Home = ({ register, login, logout, user }) => {
         <div className="landing__background"></div>
       </div>
       <div className="landing__right">
+        <Login />
         <div className="landing__sub-title">Welcome To</div>
         <div className="landing__title">Outlanders</div>
         <div className="landing__sub-title">{user.email}</div>

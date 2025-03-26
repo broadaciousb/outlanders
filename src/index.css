@@ -67,6 +67,49 @@ button {
   position: relative;
 }
 
+/* LOGIN PAGE */
+
+.login__wrapper {
+  position: absolute;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.login__email,
+.login__password {
+  font-size: 24px;
+  margin-bottom: 48px;
+  color: white;
+}
+
+.login__input {
+  width: 100%;
+  font-size: 24px;
+}
+
+.login__submit {
+  background-color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 12px 0;
+}
+
+
+
+
 
 /* HOME */
 
@@ -90,6 +133,7 @@ button {
   box-shadow: -12px 0px 10px 10px black;
   background-color: black;
   padding-top: 24px;
+  position: relative;
 }
 
 .landing__background {
