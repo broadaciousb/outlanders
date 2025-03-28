@@ -1,6 +1,6 @@
 import React from "react";
 
-const Login = () => {
+const Login = ({ register }) => {
   return (
     <>
       <div className="login__wrapper">

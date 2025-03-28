@@ -13,7 +13,7 @@ const Home = ({ register, login, logout, user }) => {
         <div className="landing__background"></div>
       </div>
       <div className="landing__right">
-        <Login />
+        <Login register={register}/>
         <div className="landing__sub-title">Welcome To</div>
         <div className="landing__title">Outlanders</div>
         <div className="landing__sub-title">{user.email}</div>
