@@ -67,9 +67,11 @@ button {
   position: relative;
 }
 
-/* LOGIN PAGE */
+/* CREATE ACCOUNT */
+/* LOGIN */
 
-.login__wrapper {
+.login__wrapper,
+.create__account--wrapper {
   position: absolute;
   background-color: black;
   top: 0;
@@ -80,28 +82,36 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.login__wrapper {
   display: none;
 }
 
-.login {
+.login,
+.create__account {
   display: flex;
   flex-direction: column;
   width: 60%;
 }
 
 .login__email,
-.login__password {
+.login__password,
+.account__name,
+.account__password {
   font-size: 24px;
   margin-bottom: 48px;
   color: white;
 }
 
-.login__input {
+.login__input,
+.account__input {
   width: 100%;
   font-size: 24px;
 }
 
-.login__submit {
+.login__submit,
+.account__submit {
   background-color: white;
   text-align: center;
   font-size: 24px;
